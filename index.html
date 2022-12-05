@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="loading">
+        <div class="wave" id="wave">
+            <span style="--i:1">L</span>
+            <span style="--i:2">o</span>
+            <span style="--i:3">a</span>
+            <span style="--i:4">d</span>
+            <span style="--i:5">i</span>
+            <span style="--i:6">n</span>
+            <span style="--i:7">g</span>
+            <span style="--i:8">.</span>
+        </div>
+    </div>
+
+
+    <div class="container" id="container">
+        <header>
+            <div class="logo-name">
+                <img src="/img/imgpro.jpg" alt="">
+                <p class="nameG">GEDEON KAKULIA</p>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <!-- <li id="home">HOME</li> -->
+                    <li id="about" onclick="scrollAbout()">ABOUT</li>
+                    <li id="projects" onclick="scrollProjects()">PROJECTS</li>
+                    <li id="contact" onclick="scrollContact()">CONTACT</li>
+                </ul>
+            </div>
+        </header>
+        <div class="main">
+            <div class="main-content">
+                <h1 class="content-h1">Hey, I'm Gedeon Kakulia</h1>
+                <p class="content-p">A Frontend focused Web Developer building the Frontend of Websites and Web
+                    Applications that leads to the success of the overall product </p>
+                <button class="content-btn">PROJECTS</button>
+            </div>
+        </div>
+        <div class="icon-div">
+            <div class="fb">
+                
+                
+
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 504 504"
+                    style="enable-background:new 0 0 504 504;" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M377.6,0H126C56.8,0,0,56.8,0,126.4V378c0,69.2,56.8,126,126,126h251.6c69.6,0,126.4-56.8,126.4-126.4V126.4
+			C504,56.8,447.2,0,377.6,0z M319.6,252H272v156h-60V252h-32v-64h28v-27.2c0-25.6,12.8-66,66.8-66H324V148h-34.8
+			c-5.6,0-13.2,3.6-13.2,16v24h49.2L319.6,252z" />
+                        </g>
+
+                </svg>
+
+            </div>
+            <div class="inst">
+                <?xml version="1.0" standalone="no"?>
+                <svg width="32px" height="32px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon">
+                    <path
+                        d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3 645.3 585.4 645.3 512 585.4 378.7 512 378.7zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9 717.1 398.5 717.1 512 625.5 717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9 47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z" />
+                </svg>
+
+
+            </div>
+            <div class="git">
+                <svg width="27px" height="27px" viewBox="0 -3.5 256 256" xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMinYMin meet">
+                    <g fill="#161614">
+                        <path
+                            d="M127.505 0C57.095 0 0 57.085 0 127.505c0 56.336 36.534 104.13 87.196 120.99 6.372 1.18 8.712-2.766 8.712-6.134 0-3.04-.119-13.085-.173-23.739-35.473 7.713-42.958-15.044-42.958-15.044-5.8-14.738-14.157-18.656-14.157-18.656-11.568-7.914.872-7.752.872-7.752 12.804.9 19.546 13.14 19.546 13.14 11.372 19.493 29.828 13.857 37.104 10.6 1.144-8.242 4.449-13.866 8.095-17.05-28.32-3.225-58.092-14.158-58.092-63.014 0-13.92 4.981-25.295 13.138-34.224-1.324-3.212-5.688-16.18 1.235-33.743 0 0 10.707-3.427 35.073 13.07 10.17-2.826 21.078-4.242 31.914-4.29 10.836.048 21.752 1.464 31.942 4.29 24.337-16.497 35.029-13.07 35.029-13.07 6.94 17.563 2.574 30.531 1.25 33.743 8.175 8.929 13.122 20.303 13.122 34.224 0 48.972-29.828 59.756-58.22 62.912 4.573 3.957 8.648 11.717 8.648 23.612 0 17.06-.148 30.791-.148 34.991 0 3.393 2.295 7.369 8.759 6.117 50.634-16.879 87.122-64.656 87.122-120.973C255.009 57.085 197.922 0 127.505 0" />
+                        <path
+                            d="M47.755 181.634c-.28.633-1.278.823-2.185.389-.925-.416-1.445-1.28-1.145-1.916.275-.652 1.273-.834 2.196-.396.927.415 1.455 1.287 1.134 1.923M54.027 187.23c-.608.564-1.797.302-2.604-.589-.834-.889-.99-2.077-.373-2.65.627-.563 1.78-.3 2.616.59.834.899.996 2.08.36 2.65M58.33 194.39c-.782.543-2.06.034-2.849-1.1-.781-1.133-.781-2.493.017-3.038.792-.545 2.05-.055 2.85 1.07.78 1.153.78 2.513-.019 3.069M65.606 202.683c-.699.77-2.187.564-3.277-.488-1.114-1.028-1.425-2.487-.724-3.258.707-.772 2.204-.555 3.302.488 1.107 1.026 1.445 2.496.7 3.258M75.01 205.483c-.307.998-1.741 1.452-3.185 1.028-1.442-.437-2.386-1.607-2.095-2.616.3-1.005 1.74-1.478 3.195-1.024 1.44.435 2.386 1.596 2.086 2.612M85.714 206.67c.036 1.052-1.189 1.924-2.705 1.943-1.525.033-2.758-.818-2.774-1.852 0-1.062 1.197-1.926 2.721-1.951 1.516-.03 2.758.815 2.758 1.86M96.228 206.267c.182 1.026-.872 2.08-2.377 2.36-1.48.27-2.85-.363-3.039-1.38-.184-1.052.89-2.105 2.367-2.378 1.508-.262 2.857.355 3.049 1.398" />
+                    </g>
+                </svg>
+            </div>
+            <div class="linkdn1" >
+
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 504.4 504.4"
+                    style="enable-background:new 0 0 504.4 504.4;" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M377.6,0.2H126.4C56.8,0.2,0,57,0,126.6v251.6c0,69.2,56.8,126,126.4,126H378c69.6,0,126.4-56.8,126.4-126.4V126.6
+			C504,57,447.2,0.2,377.6,0.2z M168,408.2H96v-208h72V408.2z M131.6,168.2c-20.4,0-36.8-16.4-36.8-36.8c0-20.4,16.4-36.8,36.8-36.8
+			c20.4,0,36.8,16.4,36.8,36.8C168,151.8,151.6,168.2,131.6,168.2z M408.4,408.2H408h-60V307.4c0-24.4-3.2-55.6-36.4-55.6
+			c-34,0-39.6,26.4-39.6,54v102.4h-60v-208h56v28h1.6c8.8-16,29.2-28.4,61.2-28.4c66,0,77.6,38,77.6,94.4V408.2z" />
+                        </g>
+
+                </svg>
+
+
+            </div>
+        </div>
+
+        <div class="main2">
+            <div class="main2-h1-p">
+                <h1 class="main2-h1">About Me</h1>
+                <div class="main2-line"></div>
+                <p class="main2-p">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology </p>
+            </div>
+            <div class="main2-know-skills">
+                <div class="main2-know">
+                    <h1 class="main2-know-h1">Get to know me!</h1>
+                    <p class="main2-know-p">I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me. </p>
+                <button class="main2-know-btn">contact</button>
+                </div>
+                <div class="main2-skills">
+                    <h1 class="main2-skills-h1">My Skills</h1>
+                    <div class="skillsAll">
+                        <div class="html">HTML</div>
+                    <div class="css">CSS</div>
+                    <div class="js">JAVASCRIPT</div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="main3">
+            <div class="main3-text">
+                <h1 class="main3-h1">Projects</h1>
+                <div class="main3-line"></div>
+                <p class="main3-p">Here you will find some of the personal projects that I created with each project containing its own case study. For more please check my Github. </p>
+            </div>
+            <div class="project1">
+                <div class="pro1-img">
+                    <img src="/img/eqva1.png" alt="">
+                </div>
+                <div class="pro1-text">
+                    <h2 class="pro1-h2">Equalizer</h2>
+                    <p class="pro1-p">Equalizer landing page</p>
+                    <button class="pro1-btn">Go</button>
+                </div>
+            </div><br>
+            <br>
+            <br>
+            <div class="project1">
+                <div class="pro1-img">
+                    <img src="/img/qqqq.png" alt="">
+                </div>
+                <div class="pro1-text">
+                    <h2 class="pro1-h2">Typemaster</h2>
+                    <p class="pro1-p">Typemaster pre launch landing page</p>
+                    <button class="pro1-btn">Go</button>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="project1">
+                <div class="pro1-img">
+                    <img src="/img/cards4.png" alt="">
+                </div>
+                <div class="pro1-text">
+                    <h2 class="pro1-h2">Four card</h2>
+                    <p class="pro1-p">Four card feature section</p>
+                    <button class="pro1-btn">Go</button>
+                </div>
+            </div>
+        </div>
+        <div class="contactMe">
+            <h1 class="contact-h1">Contact</h1>
+            <div class="contact-line"></div>
+            <p class="contact-p">Feel free to Contact me, let me get you a beautiful website.</p>
+            <p class="meil"> gigakakulia2017@gmail.com</p>
+            <p class="phone"> +995 568 785 858</p>
+        </div>
+        
+        <div class="footer">
+            
+            <div class="footer-content">
+                <h2 class="footer-name">GEDEON KAKULIA</h2>
+                <p class="footer-p2">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product </p>
+            </div>
+            <div class="social">
+                <div class="icon-div1">
+                    <div class="fb">
+                        
+                        
+        
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 504 504"
+                            style="enable-background:new 0 0 504 504;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M377.6,0H126C56.8,0,0,56.8,0,126.4V378c0,69.2,56.8,126,126,126h251.6c69.6,0,126.4-56.8,126.4-126.4V126.4
+                    C504,56.8,447.2,0,377.6,0z M319.6,252H272v156h-60V252h-32v-64h28v-27.2c0-25.6,12.8-66,66.8-66H324V148h-34.8
+                    c-5.6,0-13.2,3.6-13.2,16v24h49.2L319.6,252z" />
+                                </g>
+        
+                        </svg>
+        
+                    </div>
+                    <div class="inst">
+                        <?xml version="1.0" standalone="no"?>
+                        <svg width="32px" height="32px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="icon">
+                            <path
+                                d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3 645.3 585.4 645.3 512 585.4 378.7 512 378.7zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9 717.1 398.5 717.1 512 625.5 717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9 47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z" />
+                        </svg>
+        
+        
+                    </div>
+                    <div class="git">
+                        <svg width="27px" height="27px" viewBox="0 -3.5 256 256" xmlns="http://www.w3.org/2000/svg"
+                            preserveAspectRatio="xMinYMin meet">
+                            <g fill="#161614">
+                                <path
+                                    d="M127.505 0C57.095 0 0 57.085 0 127.505c0 56.336 36.534 104.13 87.196 120.99 6.372 1.18 8.712-2.766 8.712-6.134 0-3.04-.119-13.085-.173-23.739-35.473 7.713-42.958-15.044-42.958-15.044-5.8-14.738-14.157-18.656-14.157-18.656-11.568-7.914.872-7.752.872-7.752 12.804.9 19.546 13.14 19.546 13.14 11.372 19.493 29.828 13.857 37.104 10.6 1.144-8.242 4.449-13.866 8.095-17.05-28.32-3.225-58.092-14.158-58.092-63.014 0-13.92 4.981-25.295 13.138-34.224-1.324-3.212-5.688-16.18 1.235-33.743 0 0 10.707-3.427 35.073 13.07 10.17-2.826 21.078-4.242 31.914-4.29 10.836.048 21.752 1.464 31.942 4.29 24.337-16.497 35.029-13.07 35.029-13.07 6.94 17.563 2.574 30.531 1.25 33.743 8.175 8.929 13.122 20.303 13.122 34.224 0 48.972-29.828 59.756-58.22 62.912 4.573 3.957 8.648 11.717 8.648 23.612 0 17.06-.148 30.791-.148 34.991 0 3.393 2.295 7.369 8.759 6.117 50.634-16.879 87.122-64.656 87.122-120.973C255.009 57.085 197.922 0 127.505 0" />
+                                <path
+                                    d="M47.755 181.634c-.28.633-1.278.823-2.185.389-.925-.416-1.445-1.28-1.145-1.916.275-.652 1.273-.834 2.196-.396.927.415 1.455 1.287 1.134 1.923M54.027 187.23c-.608.564-1.797.302-2.604-.589-.834-.889-.99-2.077-.373-2.65.627-.563 1.78-.3 2.616.59.834.899.996 2.08.36 2.65M58.33 194.39c-.782.543-2.06.034-2.849-1.1-.781-1.133-.781-2.493.017-3.038.792-.545 2.05-.055 2.85 1.07.78 1.153.78 2.513-.019 3.069M65.606 202.683c-.699.77-2.187.564-3.277-.488-1.114-1.028-1.425-2.487-.724-3.258.707-.772 2.204-.555 3.302.488 1.107 1.026 1.445 2.496.7 3.258M75.01 205.483c-.307.998-1.741 1.452-3.185 1.028-1.442-.437-2.386-1.607-2.095-2.616.3-1.005 1.74-1.478 3.195-1.024 1.44.435 2.386 1.596 2.086 2.612M85.714 206.67c.036 1.052-1.189 1.924-2.705 1.943-1.525.033-2.758-.818-2.774-1.852 0-1.062 1.197-1.926 2.721-1.951 1.516-.03 2.758.815 2.758 1.86M96.228 206.267c.182 1.026-.872 2.08-2.377 2.36-1.48.27-2.85-.363-3.039-1.38-.184-1.052.89-2.105 2.367-2.378 1.508-.262 2.857.355 3.049 1.398" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="linkdn1" >
+        
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 504.4 504.4"
+                            style="enable-background:new 0 0 504.4 504.4;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M377.6,0.2H126.4C56.8,0.2,0,57,0,126.6v251.6c0,69.2,56.8,126,126.4,126H378c69.6,0,126.4-56.8,126.4-126.4V126.6
+                    C504,57,447.2,0.2,377.6,0.2z M168,408.2H96v-208h72V408.2z M131.6,168.2c-20.4,0-36.8-16.4-36.8-36.8c0-20.4,16.4-36.8,36.8-36.8
+                    c20.4,0,36.8,16.4,36.8,36.8C168,151.8,151.6,168.2,131.6,168.2z M408.4,408.2H408h-60V307.4c0-24.4-3.2-55.6-36.4-55.6
+                    c-34,0-39.6,26.4-39.6,54v102.4h-60v-208h56v28h1.6c8.8-16,29.2-28.4,61.2-28.4c66,0,77.6,38,77.6,94.4V408.2z" />
+                                </g>
+        
+                        </svg>
+        
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+       <center> <p class="last">© Copyright 2022. Made by Gedeon Kakulia</p></center>
+
+
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
