@@ -12,6 +12,7 @@
 
 body {
     width: 100vw;
+    scroll-behavior: smooth;
 
 
     background: #14213d;
