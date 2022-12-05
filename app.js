@@ -40,3 +40,8 @@ function btnfunc2() {
 function btnfunc3() {
     window.open('https://milltiades.github.io/four-card-feature-section-master/')
 }
+
+
+function btnFirst(){
+    window.open('https://github.com/Milltiades')
+}
