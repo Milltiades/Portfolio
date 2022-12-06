@@ -1,0 +1,337 @@
+@media (max-width: 900px) {
+    body {
+        width: 375px;
+       
+    }
+
+    header {
+        width: 375px;
+    }
+
+    .logo-name {
+        position: relative;
+        left: 10px;
+
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .mobile-bar {
+        display: flex;
+        cursor: pointer;
+        position: relative;
+        top: -10px;
+    }
+
+    .mobile-bar:hover {
+        transform: scale(1.1);
+    }
+
+    .icon-div {
+        display: none;
+    }
+
+    ul {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+
+        width: 375px;
+
+
+    }
+
+    li {
+        margin: 80px;
+        text-align: center;
+        top: 50px;
+        position: relative;
+        left: 26px;
+        font-size: 30px;
+    }
+
+    .bar-screen {
+        /* visibility: hidden; */
+        z-index: 1;
+        top: 70px;
+    }
+
+    .main-content {
+        top: -20px;
+        width: 355px;
+        border: 4px solid white;
+        position: relative;
+    }
+
+    .content-h1 {
+        font-size: 30px;
+
+    }
+
+    .content-p {
+
+        width: 345px;
+
+        color: rgb(230, 242, 249);
+        font-size: 15px;
+
+    }
+
+    .content-btn {
+        width: 148px;
+        left: 100px;
+        position: relative;
+        font-size: 13px;
+        height: 50px;
+    }
+
+    .main2 {
+        top: -100px;
+        position: relative;
+        height: 970px;
+    }
+
+    .main2-h1-p {
+        position: relative;
+        top: 100px;
+    }
+
+    .main2-h1 {
+        font-size: 30px;
+    }
+
+    .main2-p {
+        font-size: 13px;
+        width: 345px;
+    }
+
+    .main2-know-skills {
+        position: relative;
+        top: 240px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+        width: 345px;
+    }
+
+    .main2-know h1 {
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+        left: -100px;
+    }
+
+    .main2-know p {
+        font-size: 13px;
+        width: 335px;
+        text-align: center;
+    }
+    .main2-skills {
+        position: relative;
+        top: 150px;
+    }
+    .main2-know-btn {
+        width: 148px;
+        height: 50px;
+        position: relative;
+        left: 100px;
+    }
+    .main2-skills{
+        top: 240px;
+        position: relative;
+    }
+    .main2-skills h1{
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+        left: -100px;
+    }
+
+    .skillsAll{
+        width: 345px;
+    }
+    .main3{
+        position: relative;
+        top: -100px;
+    }
+
+    .main3-text{
+        width: 345px;
+        left: 13px;
+        position: relative;
+
+    }
+    .main3-h1 {
+        font-size: 30px;
+    }
+    
+    .main3-p {
+        position: relative;
+        top: 40px;
+        font-size: 13px;
+        width: 345px;
+        margin: 0 auto;
+        color: rgb(84, 84, 84);
+    }
+
+    .project1 {
+        width: 355px;
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+        text-align: left;
+        position: relative;
+        top: 250px;
+    }
+    .pro1-img{
+        width: 355px;
+    }
+    .pro1-img img{
+        width: 355px;
+    }
+
+
+    .pro1-text {
+        width: 355px;
+        height: 200px;
+    
+        border-radius: 10px;
+        left: 10px;
+        position: relative;
+    
+    }
+    
+    .pro1-h2 {
+        position: relative;
+        top: -160px;
+        font-size: 20px;
+    
+    }
+    
+    .pro1-p {
+        position: relative;
+        font-size: 13px;
+        color: rgb(84, 84, 84);
+        top: -140px;
+        left: 68px;
+    
+    }
+    
+    .pro1-btn {
+        position: relative;
+        top: -110px;
+        left: 107px;
+    
+    }
+    #pro2{
+        top: 0px;
+        position: relative;
+    }
+    #pro2p{
+        position: relative;
+        left: 20px;
+    }
+    #pro3{
+        top: -250px;
+        position: relative;
+    }
+
+    .contactMe{
+        top: -200px;
+        position: relative;
+        height: 400px;
+    }
+
+
+    .contact-h1 {
+        position: relative;
+        color: rgb(2, 0, 22);
+        top: 50px;
+        font-size: 30px;
+    }
+    
+    .contact-line {
+        top: 68px;
+        
+    
+    }
+    
+    .contact-p {
+        position: relative;
+        text-align: center;
+        top: 100px;
+        font-size: 15px;
+        width: 355px;
+        left: 5px;
+    }
+    
+    .meil {
+        position: relative;
+        top: 140px;
+    }
+    
+    .phone {
+        position: relative;
+        top: 160px;
+    }
+
+    .footer{
+        height: 600px;
+        position: relative;
+        top: -200px;
+        overflow: hidden;
+    }
+    .footer-name {
+       
+        top: 40px;
+        left: 65px;
+        font-size: 20px;
+    }
+
+    .footer-p2 {
+       
+        position: relative;
+        width: 345px;
+        font-size: 13px;left: 15px;
+    }
+
+    .icon-div1{
+        position: relative;
+        left: -258px;
+        top: 250px;
+    }
+
+    .footer-line {
+        width: 335px;
+        background: white;
+        opacity: 0.3;
+        height: 1px;
+        position: relative;
+        top: -385px;
+        left: 20px;
+    }
+    
+    .last {
+        font-size: 10px;
+        color: white;
+        top: -360px;
+        position: relative;
+    }
+
+    .wave span {
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        color: #fca311;
+        text-transform: uppercase;
+        animation: flip 2s infinite;
+        animation-delay: calc(.2s * var(--i));
+    
+    }
+
+
+}
