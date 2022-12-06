@@ -15,7 +15,7 @@ function scrollProjects(){
 }
 
 function scrollContact(){
-    window.scrollBy(0,3300);
+    window.scrollBy(0,3500);
 }
 
 
